@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Elena Pechurina](https://up.htmlacademy.ru/htmlcss/23/user/243523).
-* Наставник: `Неизвестно`.
+* Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
 
 ---
 
