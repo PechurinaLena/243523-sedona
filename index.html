@@ -80,11 +80,15 @@
           </p>
           <p class="choose-adult-number">
             <label class="visually-hidden" for="adults-number">Взрослые:</label>
-            <input id="adults-number" type="number" name="number">
+            <button class="minus"  type="button">-</button>
+            <input id="adults-number" type="text" name="number" value="" placeholder="2">
+            <button class="plus" type="button">+</button>
           </p>
           <p class="choose-children-number">
             <label class="visually-hidden" for="children-number">Дети:</label>
-            <input id="children-number" type="number" name="number">
+            <button class="minus" type="button">-</button>
+            <input id="children-number" type="text" name="number" value="" placeholder="0">
+            <button class="plus" type="button">+</button>
           </p>
           <button class="search" type="button">Найти</button>
       </form>
