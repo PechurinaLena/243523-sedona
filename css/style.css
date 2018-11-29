@@ -7,14 +7,7 @@ body {
     background-repeat: no-repeat;
 }
 
-li {
-    list-style-type: none; 
-   }
 
-ul {
-    margin-left: 0; 
-    padding-left: 0;
-   }
 
    .main-navigation {
     font-size: 14px;
@@ -60,6 +53,10 @@ a {
     color: #766357;
 }
 
+.realcity-list{
+    list-style: none;
+  }
+
 
 button{
     color: #766357;
@@ -74,27 +71,3 @@ button:focus{
 }
 
 
-.container{
-    background-image: url(../img/intro-welcome.svg),
-    url(../img/main-background-photo.jpg);
-    background-size: 50%;
-    
-    background-position: top center;
-    background-repeat: no-repeat;
-}
-
-h1{
-    font-family: "PT Sans Narrow", Arial, sans-serif;
-    font-size: 21px;
-    line-height: 26px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-p{
-    font-family: "PT Sans Narrow", Arial, sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 400;
-    text-transform: uppercase;
-}
