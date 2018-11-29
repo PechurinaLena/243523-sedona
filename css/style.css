@@ -16,6 +16,14 @@ ul {
     padding-left: 0;
    }
 
+   .main-navigation {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
+    
+    background-color: #f2f2f2;
+  }
+
 .site-navigation{
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
