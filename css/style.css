@@ -25,13 +25,16 @@ ul {
   }
 
 .site-navigation{
-    font-family: "PT Sans Narrow", Arial, sans-serif;
-    font-size: 14px;
-    line-height: 26px;
-    font-weight: 700;
+    list-style: none;
+}
+
+.site-navigation a{
+    text-decoration: none;
     color: #000000;
-    text-transform: uppercase;
-    background-color:#ffffff;
+}
+
+a {
+    text-decoration: none;
 }
 
 .visually-hidden { 
@@ -45,22 +48,18 @@ ul {
     border: 0; 
   }
 
-a {
-    text-decoration: none;
-    color: #000000;
+  .site-navigation a:hover{
+    color: #81B3D2;
   }
 
- a:active{
+  .site-navigation a:focus{
+    color: #cacaca;
+  }
+
+  .site-navigation a:active{
     color: #766357;
 }
 
-a:hover{
-    color: #81B3D2;
-}
-
-a:focus{
-    color: #cacaca;
-}
 
 button{
     color: #766357;
