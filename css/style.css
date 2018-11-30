@@ -15,17 +15,19 @@ body {
     background-color:#ffffff;
 }
 
-
-   .main-navigation {
-    font-size: 14px;
-    line-height: 26px;
-    color: #000000;
-    
-    background-color: #ffffff;
-  }
+.main-navigation{
+    text-align: center;
+}
 
 .site-navigation{
     list-style: none;
+
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
 }
 
 .site-navigation a{
@@ -64,18 +66,16 @@ a {
     list-style: none;
   }
 
-.container h1{
-    text-align: center;
-}
 
 .welcome{
     color: #000000;
-
-}
-
-.reasons{
     text-align: center;
+
+    background-image: url(../img/intro-mask.svg);
+    background-color: #ffffff;
 }
+
+
 
 button{
     color: #766357;
