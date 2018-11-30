@@ -17,6 +17,7 @@ body {
 
 .main-navigation{
     text-align: center;
+
 }
 
 .site-navigation{
@@ -105,7 +106,7 @@ button:focus{
 }
 
 .city-info{
-    width: 403px;
+    width: 400px;
 }
 
 .city-info h2{
@@ -162,18 +163,22 @@ button:focus{
     background-repeat: no-repeat;
 }
 
-.bridge-image{
+.bridge{
     height: 257px;
-
-    background-image: url(../img/bridge.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
-
-    background-color: #81b3d2;
 }
 
 .bridge-info{
-    width: 403px;
+    width: 400px;
+    height: inherit;
+    background-color: #81b3d2;
+}
+
+.bridge-image{
+    height:inherit;
+    width: 800px;
+
+    background-image: url(../img/bridge.jpg);
+    background-repeat: no-repeat;
 }
 
 .bridge-info h2{
@@ -192,6 +197,48 @@ button:focus{
     line-height: 21px;
     font-weight: 400;
     color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.plus{
+    background-color: #f2f2f2;
+}
+
+.plus h2{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.plus p{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.interest h2{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.interest p{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000000;
     text-align: center;
     text-transform: uppercase;
 }
