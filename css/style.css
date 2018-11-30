@@ -317,3 +317,22 @@ button:focus{
     text-align: center;
     text-transform: uppercase;   
 }
+
+.footer-social li{
+    list-style: none;
+}
+
+.social-button1{
+    background-image: url(../img/twitter.svg);
+    background-repeat: no-repeat;
+}
+
+.social-button2{
+    background-image: url(../img/fb-icon.svg);
+    background-repeat: no-repeat;
+}
+
+.social-button3{
+    background-image: url(../img/youtube.svg);
+    background-repeat: no-repeat;
+}
