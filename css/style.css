@@ -314,7 +314,6 @@ button:focus{
     line-height: 26px;
     font-weight: 700;
     color: #000000;
-    text-align: center;
     text-transform: uppercase;   
 }
 
@@ -335,4 +334,13 @@ button:focus{
 .social-button3{
     background-image: url(../img/youtube.svg);
     background-repeat: no-repeat;
+}
+
+.footer-logo p{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;   
 }
