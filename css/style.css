@@ -82,20 +82,6 @@ a {
     background-size: auto;
 }
 
-
-
-button{
-    color: #766357;
-}
-
-button:hover{
-    color: #000000;
-}
-
-button:focus{
-    color:  #81B3D2;
-}
-
 .city{
     height: 257px;
     background-image: url(../img/real_city.jpg);
@@ -261,6 +247,35 @@ button:focus{
     text-transform: uppercase;
 }
 
-.arrival-date-form p{
+.search-hotel h2:active{
+    background-color: #503E33;
+}
 
+.search-hotel h2:hover{
+    background-color: #604E43;
+}
+
+
+.arrival-date-form label{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+button{
+    color: #766357;
+}
+
+button:hover{
+    color: #000000;
+}
+
+button:focus{
+    color:  #81B3D2;
 }
