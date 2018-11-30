@@ -57,6 +57,9 @@ a {
     list-style: none;
   }
 
+.container h1{
+    text-align: center;
+}
 
 button{
     color: #766357;
