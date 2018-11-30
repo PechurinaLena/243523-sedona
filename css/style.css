@@ -161,3 +161,37 @@ button:focus{
     background-image: url(../img/icon-3.svg);
     background-repeat: no-repeat;
 }
+
+.bridge-image{
+    height: 257px;
+
+    background-image: url(../img/bridge.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+
+    background-color: #81b3d2;
+}
+
+.bridge-info{
+    width: 403px;
+}
+
+.bridge-info h2{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.bridge-info p{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
