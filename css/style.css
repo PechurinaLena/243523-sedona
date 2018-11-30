@@ -242,3 +242,17 @@ button:focus{
     text-align: center;
     text-transform: uppercase;
 }
+
+.search-hotel h2{
+    background: #766357;
+    padding: 30px; 
+    margin-left: 315px;
+    margin-right: 315px;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
