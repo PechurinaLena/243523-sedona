@@ -296,3 +296,11 @@ button:focus{
     background-color: #81B3D2;
     border-style: none;
 }
+
+.button:hover{
+    color: #669EC0;
+}
+
+.button:active{
+    color: #5496BD;
+}
