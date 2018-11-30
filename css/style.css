@@ -7,6 +7,13 @@ body {
     background-repeat: no-repeat;
 }
 
+.inner-page{
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: 0 0 20px #cccccc;
+
+    background-color:#ffffff;
+}
 
 
    .main-navigation {
@@ -58,6 +65,15 @@ a {
   }
 
 .container h1{
+    text-align: center;
+}
+
+.welcome{
+    color: #000000;
+
+}
+
+.reasons{
     text-align: center;
 }
 
