@@ -129,6 +129,7 @@ button:focus{
 }
 
 .realcity-list{
+    height: 330px;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
@@ -147,5 +148,16 @@ button:focus{
 }
 
 .realcity-item1{
-    background-image: url(../img/)
+    background-image: url(../img/icon-1.svg);
+    background-repeat: no-repeat;
+}
+
+.realcity-item2{
+    background-image: url(../img/icon-2.svg);
+    background-repeat: no-repeat;
+}
+
+.realcity-item3{
+    background-image: url(../img/icon-3.svg);
+    background-repeat: no-repeat;
 }
