@@ -68,11 +68,17 @@ a {
 
 
 .welcome{
+    height: 725px;
     color: #000000;
     text-align: center;
 
-    background-image: url(../img/intro-mask.svg);
+    background-image: url(../img/intro-welcome.svg),
+     url(../img/main-background-photo.jpg),
+     url(../img/intro-mask.svg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: #ffffff;
+    background-size: auto;
 }
 
 
@@ -89,4 +95,57 @@ button:focus{
     color:  #81B3D2;
 }
 
+.city{
+    height: 257px;
+    background-image: url(../img/real_city.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 
+    background-color: #81b3d2;
+}
+
+.city-info{
+    width: 403px;
+}
+
+.city-info h2{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.city-info p{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.realcity-list{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.realcity-list h3{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.realcity-item1{
+    background-image: url(../img/)
+}
