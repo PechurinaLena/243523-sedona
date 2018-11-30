@@ -255,6 +255,9 @@ a {
     background-color: #503E33;
 }
 
+.arrival-date-form{
+    padding: 30px;
+}
 
 .arrival-date-form label{
     font-family: "PT Sans Narrow", Arial, sans-serif;
@@ -303,4 +306,14 @@ button:focus{
 
 .button:active{
     color: #5496BD;
+}
+
+.visit{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;   
 }
