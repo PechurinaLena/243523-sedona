@@ -247,12 +247,12 @@ a {
     text-transform: uppercase;
 }
 
-.search-hotel h2:active{
-    background-color: #503E33;
-}
-
 .search-hotel h2:hover{
     background-color: #604E43;
+}
+
+.search-hotel h2:active{
+    background-color: #503E33;
 }
 
 
@@ -266,10 +266,9 @@ a {
     text-transform: uppercase;
 }
 
-
-
 button{
-    color: #766357;
+    color: #ffffff;
+    background-color: #766357;
 }
 
 button:hover{
@@ -278,4 +277,22 @@ button:hover{
 
 button:focus{
     color:  #81B3D2;
+}
+
+.button{
+    height: 60px;
+    width: 460px;
+    margin-left: 55px;
+    margin-right: 55px;
+
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+
+    background-color: #81B3D2;
+    border-style: none;
 }
