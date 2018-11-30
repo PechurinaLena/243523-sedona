@@ -243,11 +243,15 @@ button:focus{
     text-transform: uppercase;
 }
 
+.search-hotel{
+    box-shadow: 0 0 20px #cccccc;
+    margin-left: 315px;
+    margin-right: 315px;
+}
+
 .search-hotel h2{
     background: #766357;
     padding: 30px; 
-    margin-left: 315px;
-    margin-right: 315px;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 21px;
     line-height: 26px;
@@ -255,4 +259,8 @@ button:focus{
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
+}
+
+.arrival-date-form p{
+
 }
