@@ -69,6 +69,7 @@ a {
 }
 
 .welcome-sedona{
+    margin-bottom: 80px;
     background-image: url(../img/main-background-photo.jpg);
     background-size: 1400px 773px;
     background-position: center;
@@ -85,16 +86,15 @@ a {
 
 .mask-intro{
     background-image: url(../img/intro-mask.svg);
-    background-size: 1400px 65px;
+    background-size: 1400px 60px;
     background-position: bottom;
-    padding-bottom: 65px;
+    padding-bottom: 70px;
     background-repeat: no-repeat;
 }
 
 
 .welcome h1{
-    padding-bottom: 50px;
-    padding-top: 40px;
+    padding-bottom: 20px;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 21px;
     line-height: 26px;
@@ -105,7 +105,7 @@ a {
 }
 
 .welcome p{
-    padding-bottom: 52px;
+    padding-bottom: 40px;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
@@ -120,25 +120,30 @@ a {
 }
 
 .city{
-    height: 257px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+.city-image{
     background-image: url(../img/real_city.jpg);
-    background-repeat: no-repeat;
+    background-size: 800px 256px;
     background-position: right;
-
-    background-color: #81b3d2;
+    padding-top: 256px;
+    background-repeat: no-repeat;
 }
 
 .city-info{
-    width: 400px;
+    background-color: #81b3d2;
 }
 
 .city-info h2{
+    padding-top: 30px;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
-    color: #ffffff;
     text-align: center;
+    color: #ffffff;
     text-transform: uppercase;
 }
 
@@ -147,8 +152,8 @@ a {
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
-    color: #ffffff;
     text-align: center;
+    color: #ffffff;
     text-transform: uppercase;
 }
 
