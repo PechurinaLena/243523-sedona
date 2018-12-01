@@ -158,20 +158,25 @@ a {
 }
 
 .realcity-list{
-    height: 330px;
-    font-family: "PT Sans Narrow", Arial, sans-serif;
-    font-size: 14px;
-    line-height: 21px;
-    font-weight: 400;
-    color: #000000;
-    text-transform: uppercase;
+    height: auto; /*временно*/
 }
 
 .realcity-list h3{
+    padding-top: 90px;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.realcity-list p{
+    padding-top: 10px;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
     color: #000000;
     text-transform: uppercase;
 }
