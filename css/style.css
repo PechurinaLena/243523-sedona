@@ -197,20 +197,18 @@ a {
 }
 
 .bridge{
-    height: 257px;
+    height: auto; /*временно*/
 }
 
 .bridge-info{
-    width: 400px;
-    height: inherit;
     background-color: #81b3d2;
 }
 
 .bridge-image{
-    height:inherit;
-    width: 800px;
-
     background-image: url(../img/bridge.jpg);
+    background-size: 800px 256px;
+    background-position: left;
+    padding-top: 256px;
     background-repeat: no-repeat;
 }
 
@@ -235,6 +233,9 @@ a {
 }
 
 .plus{
+    margin: 0;
+    padding: 30px; /*временно*/
+    height: auto; /*временно*/
     background-color: #f2f2f2;
 }
 
@@ -277,9 +278,8 @@ a {
 }
 
 .search-hotel{
+    background-color: #ffffff;
     box-shadow: 0 0 20px #cccccc;
-    margin-left: 315px;
-    margin-right: 315px;
 }
 
 .search-hotel h2{
@@ -303,7 +303,7 @@ a {
 }
 
 .arrival-date-form{
-    padding: 30px;
+    padding: 55px;
 }
 
 .arrival-date-form label{
@@ -314,6 +314,10 @@ a {
     color: #000000;
     text-align: center;
     text-transform: uppercase;
+}
+
+.date{
+    background-color: #f2f2f2;
 }
 
 button{
@@ -329,12 +333,8 @@ button:focus{
     color:  #81B3D2;
 }
 
-.button{
+.find{
     height: 60px;
-    width: 460px;
-    margin-left: 55px;
-    margin-right: 55px;
-
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 21px;
     line-height: 26px;
@@ -347,12 +347,12 @@ button:focus{
     border-style: none;
 }
 
-.button:hover{
-    color: #669EC0;
+.find:hover{
+    background-color: #669EC0;
 }
 
-.button:active{
-    color: #5496BD;
+.find:active{
+    background-color: #5496BD;
 }
 
 .visit{
