@@ -430,17 +430,29 @@ a {
 
 .social-button1{
     background-image: url(../img/twitter.svg);
+    height: 48px;
+    width: 46px;
     background-repeat: no-repeat;
+    background-color: #81b3d2;
+    background-position: center;
 }
 
 .social-button2{
     background-image: url(../img/fb-icon.svg);
+    height: 48px;
+    width: 46px;
     background-repeat: no-repeat;
+    background-color: #81b3d2;
+    background-position: center;
 }
 
 .social-button3{
     background-image: url(../img/youtube.svg);
+    height: 48px;
+    width: 46px;
     background-repeat: no-repeat;
+    background-color: #81b3d2;
+    background-position: center;
 }
 
 .footer-logo p{
@@ -451,3 +463,10 @@ a {
     color: #000000;
     text-transform: uppercase;   
 }
+
+
+
+
+
+
+
