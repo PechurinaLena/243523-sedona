@@ -333,10 +333,12 @@ a {
 
 .date:hover{
     background-color: #ebebeb;
+    border-color: none;
 }
 
 .date:focus{
     background-color: #ffffff;
+    outline: 2px solid #E5E5E5;
 }
 
 .number{
@@ -413,6 +415,7 @@ a {
 
 .find:active{
     background-color: #5496BD;
+    color: #94B9D2;
 }
 
 .visit{
@@ -429,6 +432,7 @@ a {
 }
 
 .social-button1{
+    margin: 5px;
     background-image: url(../img/twitter.svg);
     height: 48px;
     width: 46px;
@@ -438,6 +442,7 @@ a {
 }
 
 .social-button2{
+    margin:5px;
     background-image: url(../img/fb-icon.svg);
     height: 48px;
     width: 46px;
@@ -447,12 +452,35 @@ a {
 }
 
 .social-button3{
+    margin:5px;
     background-image: url(../img/youtube.svg);
     height: 48px;
     width: 46px;
     background-repeat: no-repeat;
     background-color: #81b3d2;
     background-position: center;
+}
+
+.social-button1:hover,
+.social-button2:hover,
+.social-button3:hover{
+    background-color: #669EC0;
+}
+
+.social-button1:active{
+    background-image: url(../img/twitter_active.svg);
+    background-repeat: no-repeat;
+    background-color: #5596BD;
+}
+.social-button2:active{
+    background-image: url(../img/fb_icon_active.svg);
+    background-repeat: no-repeat;
+    background-color: #5596BD;
+}
+.social-button3:active{
+    background-image: url(../img/youtube_active.svg);
+    background-repeat: no-repeat;
+    background-color: #5596BD;
 }
 
 .footer-logo p{
@@ -464,6 +492,24 @@ a {
     text-transform: uppercase;   
 }
 
+.footer-logo a{
+    height: 115px;
+    width: 41px;
+    padding: 60px;
+    background-image: url(../img/logo-htmlacademy.svg);
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+}
+
+.footer-logo a:hover{
+    background-image: url(../img/logo_htmlacademy_hover.svg);
+    background-repeat: no-repeat;
+}
+
+.footer-logo a:active{
+    background-image: url(../img/logo_htmlacademy_active.svg);
+    background-repeat: no-repeat;
+}
 
 
 
