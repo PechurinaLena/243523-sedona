@@ -15,12 +15,25 @@ body {
     background-color:#ffffff;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.main-header-logo{
+    position: absolute;
+    right: 45%;
+}
+
 .main-navigation{
     text-align: center;
 }
 
 .site-navigation{
     list-style: none;
+
+    display: flex;
+    flex-wrap: wrap;
 
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
@@ -30,9 +43,12 @@ body {
     text-transform: uppercase;
 }
 
+
 .site-navigation a{
     text-decoration: none;
     color: #000000;
+    display: block;
+    padding: 20px 100px;
 }
 
 a {
@@ -66,10 +82,15 @@ a {
     height: 725px;
     width: 100%;
     background-image: url(../img/intro-welcome.svg),
-    url(../intro-mask.svg),
+    url(../img/intro-mask.svg),
     url(../img/main-background-photo.jpg);
+    position: relative, 
+    absolute, 
+    absolute;
     background-repeat: no-repeat;
-    background-position: center, bottom, top;
+    background-position: top center, 
+    center,
+    top;
     background-size: 470px 350px,
      1200px 61px,
      1200px 515px;
@@ -77,7 +98,7 @@ a {
 }
 
 .welcome h1{
-    padding-top: 550px;
+    padding-top: 600px;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 21px;
     line-height: 26px;
@@ -425,12 +446,8 @@ a {
 
 .social-button1{
     margin: 5px;
-    background-image: url(../img/twitter.svg);
     height: 48px;
     width: 46px;
-    background-repeat: no-repeat;
-    background-color: #81b3d2;
-    background-position: center;
 }
 
 .social-button2{
