@@ -299,10 +299,6 @@ a {
     font-weight: 700;
     color: #000000;
     text-transform: uppercase;
-    background-image: url(../img/calendar.svg);
-    background-repeat: no-repeat;
-    background-size: 25px 25px;
-    background-position: right;
     background-color: #f2f2f2;
     border-style: none;
 }
@@ -315,6 +311,23 @@ a {
 .date:focus{
     background-color: #ffffff;
     outline: 2px solid #E5E5E5;
+}
+
+.calendar{
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    border-style: none;
+    fill: #766357;
+}
+
+.calendar:hover{
+  fill: #000000;
+}
+
+.calendar:active{
+    fill: #81B3D2;
 }
 
 .number{
@@ -347,7 +360,7 @@ a {
     color: #000000;
 }
 
-.minus:focus{
+.minus:active{
     color:  #81B3D2;
 }
 
