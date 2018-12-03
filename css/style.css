@@ -205,14 +205,14 @@ a {
     text-transform: uppercase;
 }
 
-.plus{
+.advantage{
     margin: 0;
     padding: 30px; /*временно*/
     height: auto; /*временно*/
     background-color: #f2f2f2;
 }
 
-.plus h2{
+.advantage h2{
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
@@ -221,7 +221,7 @@ a {
     text-transform: uppercase;
 }
 
-.plus p{
+.advantage p{
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
@@ -299,7 +299,10 @@ a {
     font-weight: 700;
     color: #000000;
     text-transform: uppercase;
-
+    background-image: url(../img/calendar.svg);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: right;
     background-color: #f2f2f2;
     border-style: none;
 }
