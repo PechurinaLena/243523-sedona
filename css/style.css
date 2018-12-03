@@ -332,12 +332,13 @@ a {
 
 .number{
     height: 35px;
-    padding-left: 10px;
+    width: 35px;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 700;
     color: #000000;
+    text-align: center;
     text-transform: uppercase;
 
     background-color: #f2f2f2;
@@ -345,8 +346,9 @@ a {
 }
 
 .minus{
+    height: 35px;
+    width: 35px;
     margin: 0;
-    padding: 10px;
     color: #766357;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
@@ -365,8 +367,9 @@ a {
 }
 
 .plus{
+    height: 35px;
+    width: 35px;
     margin: 0;
-    padding: 10px;
     color: #766357;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
