@@ -331,7 +331,7 @@ a {
 }
 
 .number{
-    height: 35px;
+    height: 33px;
     width: 35px;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
@@ -383,7 +383,7 @@ a {
     color: #000000;
 }
 
-.plus:focus{
+.plus:active{
     color:  #81B3D2;
 }
 
