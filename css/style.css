@@ -63,13 +63,21 @@ a {
 }
 
 .welcome{
-    margin: 0px;
-    padding: 0px;
+    height: 725px;
+    width: 1200px;
+    background-image: url(../img/intro-welcome.svg),
+    url(../intro-mask.svg),
+    url(../img/main-background-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center, bottom, top;
+    background-size: 470px 350px,
+     1200px 61px,
+     1200px 515px;
     background-color: #ffffff;
 }
 
 .welcome h1{
-    padding-bottom: 20px;
+    padding-top: 550px;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 21px;
     line-height: 26px;
@@ -80,7 +88,6 @@ a {
 }
 
 .welcome p{
-    padding-bottom: 40px;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
