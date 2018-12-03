@@ -64,7 +64,7 @@ a {
 
 .welcome{
     height: 725px;
-    width: 1200px;
+    width: 100%;
     background-image: url(../img/intro-welcome.svg),
     url(../intro-mask.svg),
     url(../img/main-background-photo.jpg);
@@ -104,37 +104,32 @@ a {
 .city{
     margin: 0px;
     padding: 0px;
-    background-color: #ffffff;
-}
-.city-image{
+    height: 260px;
+    width: 100%;
     background-image: url(../img/real_city.jpg);
     background-size: 800px 256px;
     background-position: right;
-    padding-top: 256px;
     background-repeat: no-repeat;
-}
-
-.city-info{
     background-color: #81b3d2;
 }
 
-.city-info h2{
+.city h2{
     padding-top: 30px;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
-    text-align: center;
+    text-align: left center;
     color: #ffffff;
     text-transform: uppercase;
 }
 
-.city-info p{
+.city p{
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
-    text-align: center;
+    text-align: left center;
     color: #ffffff;
     text-transform: uppercase;
 }
