@@ -177,13 +177,26 @@ a {
     background-color: #766357;
 }
 
-.stars{
+.stars5{
     padding: 0px 45px;
     background-image: url(../img/star.svg);
     background-repeat: repeat-x;
 }
 
+.stars3{
+    padding: 0px 27px;
+    background-image: url(../img/star.svg);
+    background-repeat: repeat-x;
+}
+
+.stars2{
+    padding: 0px 17px;
+    background-image: url(../img/star.svg);
+    background-repeat: repeat-x;
+}
+
 .rating{
+    width: 10%;
     padding: 5px 15px;
     background-color: #F2F2F2;
 }
