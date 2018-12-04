@@ -166,6 +166,17 @@ a {
     background-color: #81B3D2;
 }
 
+.submit{
+    padding: 5px 15px;
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #766357;
+}
+
 .city{
     margin: 0px;
     padding: 0px;
