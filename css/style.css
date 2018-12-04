@@ -55,6 +55,10 @@ a {
     text-decoration: none;
 }
 
+.site-navigation .info a{
+    color: #766357;
+}
+
 .site-navigation .hotels a{
         color: #766357;
 }
