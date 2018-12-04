@@ -82,6 +82,7 @@ a {
     color: #cacaca;
   }
 
+
 .welcome{
     height: 725px;
     width: 100%;
@@ -123,6 +124,10 @@ a {
 }
 
 .realcity-list{
+    list-style: none;
+}
+
+.hotels-list{
     list-style: none;
 }
 
@@ -435,6 +440,8 @@ a {
     background-color: #5496BD;
     color: #94B9D2;
 }
+
+
 
 .visit{
     font-family: "PT Sans Narrow", Arial, sans-serif;
