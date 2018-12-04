@@ -88,9 +88,9 @@ a {
     absolute, 
     absolute;
     background-repeat: no-repeat;
-    background-position: top center, 
-    center,
-    top;
+    background-position: 50% 10%, 
+    50% 70%,
+    50% 0%;
     background-size: 470px 350px,
      1200px 61px,
      1200px 515px;
@@ -354,6 +354,7 @@ a {
 .number{
     height: 33px;
     width: 35px;
+    margin: 0;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
@@ -445,9 +446,18 @@ a {
 }
 
 .social-button1{
-    margin: 5px;
+    margin:5px;
     height: 48px;
-    width: 46px;
+    width: 46px; 
+    background-color: #81b3d2;
+}
+
+.social-button1:active{
+    background-color: #5596BD;
+}
+
+.twitter:active{
+    fill: #94B9D2;
 }
 
 .social-button2{
@@ -476,11 +486,7 @@ a {
     background-color: #669EC0;
 }
 
-.social-button1:active{
-    background-image: url(../img/twitter_active.svg);
-    background-repeat: no-repeat;
-    background-color: #5596BD;
-}
+
 .social-button2:active{
     background-image: url(../img/fb_icon_active.svg);
     background-repeat: no-repeat;
@@ -501,23 +507,21 @@ a {
     text-transform: uppercase;   
 }
 
-.footer-logo a{
-    height: 115px;
-    width: 41px;
-    padding: 60px;
-    background-image: url(../img/logo-htmlacademy.svg);
-    background-repeat: no-repeat;
-    background-position-y: 10px;
+.logo-size{
+    height: 45px;
+    width: 117px;
 }
 
-.footer-logo a:hover{
-    background-image: url(../img/logo_htmlacademy_hover.svg);
-    background-repeat: no-repeat;
+.logo-color{
+    fill: #231F20;
 }
 
-.footer-logo a:active{
-    background-image: url(../img/logo_htmlacademy_active.svg);
-    background-repeat: no-repeat;
+.logo-color:hover{
+    fill: #81b3d2;
+}
+
+.logo-color:active{
+    fill: #BDBBBC;
 }
 
 
