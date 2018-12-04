@@ -137,6 +137,14 @@ a {
     border-bottom: 1px solid#E5E5E5;
 }
 
+.hotel-name p{
+    font-family: "PT Sans Narrow", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+}
 
 .hotel-name h3{
     font-family: "PT Sans Narrow", Arial, sans-serif;
