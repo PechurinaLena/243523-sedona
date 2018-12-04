@@ -177,6 +177,12 @@ a {
     background-color: #766357;
 }
 
+.stars{
+    padding-right: 26px;
+    background-image: url(../img/star.svg);
+    background-repeat: repeat-x;
+}
+
 .city{
     margin: 0px;
     padding: 0px;
