@@ -178,9 +178,14 @@ a {
 }
 
 .stars{
-    padding-right: 26px;
+    padding: 0px 45px;
     background-image: url(../img/star.svg);
     background-repeat: repeat-x;
+}
+
+.rating{
+    padding: 5px 15px;
+    background-color: #F2F2F2;
 }
 
 .city{
