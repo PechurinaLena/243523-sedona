@@ -45,10 +45,11 @@ img{
 
 
 .site-navigation a{
-    text-decoration: none;
-    color: #000000;
     display: block;
     padding: 20px 100px;
+
+    text-decoration: none;
+    color: #000000;
 }
 
 a {
@@ -60,18 +61,17 @@ a {
 }
 
 .site-navigation .hotels a{
-        color: #766357;
+    color: #766357;
 }
 
 .visually-hidden { 
-    position: absolute; 
-    overflow: hidden; 
-    clip: rect(0 0 0 0); 
     height: 1px; 
     width: 1px; 
     margin: -1px; 
     padding: 0; 
     border: 0; 
+    position: absolute; 
+    overflow: hidden; 
   }
 
   .site-navigation a:hover{
@@ -89,13 +89,13 @@ a {
     background-image: url(../img/intro-welcome.svg),
     url(../img/intro-mask.svg),
     url(../img/main-background-photo.jpg);
-    position: relative, 
-    absolute, 
-    absolute;
     background-repeat: no-repeat;
     background-position: 50% 10%, 
     50% 70%,
     50% 0%;
+    position: relative, 
+    absolute, 
+    absolute;
     background-size: 470px 350px,
      1200px 61px,
      1200px 515px;
