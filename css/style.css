@@ -3,15 +3,15 @@ body {
     padding: 0;
     
     background-color:#f2f2f2;
-    background-position: top center;
-    background-repeat: no-repeat;
 }
 
 .inner-page{
-    margin-left: 40px;
-    margin-right: 40px;
+    width: 1200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
     box-shadow: 0 0 20px #cccccc;
-
     background-color:#ffffff;
 }
 
@@ -84,11 +84,11 @@ a {
 
 
 .welcome{
+    width: auto;
     height: 725px;
-    width: 100%;
     background-image: url(../img/intro-welcome.svg), url(../img/intro-mask.svg), url(../img/main-background-photo.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 10%, 50% 70%, 50% 0%;
+    background-position: 50% 10%, 50% 69%, 50% 0%;
     background-size: 470px 350px, 1200px 61px, 1200px 515px;
     background-color: #ffffff;
 }
