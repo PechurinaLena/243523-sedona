@@ -86,19 +86,10 @@ a {
 .welcome{
     height: 725px;
     width: 100%;
-    background-image: url(../img/intro-welcome.svg),
-    url(../img/intro-mask.svg),
-    url(../img/main-background-photo.jpg);
+    background-image: url(../img/intro-welcome.svg), url(../img/intro-mask.svg), url(../img/main-background-photo.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 10%, 
-    50% 70%,
-    50% 0%;
-    position: relative, 
-    absolute, 
-    absolute;
-    background-size: 470px 350px,
-     1200px 61px,
-     1200px 515px;
+    background-position: 50% 10%, 50% 70%, 50% 0%;
+    background-size: 470px 350px, 1200px 61px, 1200px 515px;
     background-color: #ffffff;
 }
 
@@ -405,7 +396,7 @@ a {
 
 .date:hover{
     background-color: #ebebeb;
-    border-color: none;
+    border-style: none;
 }
 
 .date:focus{
