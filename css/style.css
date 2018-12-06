@@ -1,3 +1,4 @@
+html,
 body {
     margin: 0;
     padding: 0;
@@ -21,12 +22,17 @@ img{
 }
 
 .main-header-logo{
+    width: 140px;
+    height: 71px;
+
+    display: block;
+    align-self: center;
     position: absolute;
-    right: 45%;
 }
 
 .main-navigation{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .site-navigation{
@@ -46,11 +52,12 @@ img{
 
 .site-navigation a{
     display: block;
-    padding: 20px 100px;
+    padding: 0px 100px;
 
     text-decoration: none;
     color: #000000;
 }
+
 
 a {
     text-decoration: none;
@@ -81,7 +88,6 @@ a {
   .site-navigation a:active{
     color: #cacaca;
   }
-
 
 .welcome{
     width: auto;
@@ -298,27 +304,67 @@ a {
 
 .advantage{
     margin: 0;
-    padding: 30px; /*временно*/
-    height: auto; /*временно*/
+    
+    display: flex;
+    flex-direction: row;
+
     background-color: #f2f2f2;
 }
 
 .advantage h2{
+    width: 150px;
+
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
     color: #000000;
+    text-align: center;
     text-transform: uppercase;
 }
 
 .advantage p{
+    width: 259px;
+
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
     color: #000000;
+    text-align: center;
     text-transform: uppercase;
+}
+
+.small-area{
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.road{
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.tourists{
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .interest h2{
