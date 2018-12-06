@@ -329,33 +329,44 @@ a {
     max-height: 260px;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 
     background-image: url(../img/bridge.jpg);
     background-size: 800px 260px;
     background-position: left;
     background-repeat: no-repeat;
-   
+}
+
+.bridge-info{
+    width: 400px;
+    height: inherit;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+
     background-color: #81b3d2;
 }
 
-.bridge h2{
+.bridge-info h2{
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
     color: #ffffff;
-    text-align: right;
+    text-align: center;
     text-transform: uppercase;
 }
 
-.bridge p{
+.bridge-info p{
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
     color: #ffffff;
-    text-align: right;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -422,6 +433,12 @@ a {
 
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.interest{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .interest h2{
@@ -604,8 +621,6 @@ a {
     background-color: #5496BD;
     color: #94B9D2;
 }
-
-
 
 .visit{
     font-family: "PT Sans Narrow", Arial, sans-serif;
