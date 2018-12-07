@@ -25,13 +25,39 @@
         </header>
 
         <section class="inner-search-hotel">
-          <h2>Найдено:3</h2>
-            <form>
-              <!-- форма -->
+          <h2 class="visually-hidden">Критерии выбора гостиницы</h2>
+            <form class="infrastructure" action="https://echo.htmlacademy.ru" method="post">
+              <p><b>ИНФРАСТРУКТУРА:</b></p>
+              <p><input type="checkbox" name="option1" value="a1" checked>Бассейн<Br>
+              <input type="checkbox" name="option2" value="a2">Парковка<Br>
+              <input type="checkbox" name="option3" value="a3">WI-FI<Br> 
             </form>
+            <form class="property-type" action="https://echo.htmlacademy.ru" method="post">
+              <p><b>ТИП ЖИЛЬЯ:</b></p>
+              <p><input type="checkbox" name="option1" value="a1" checked>Гостиница<Br>
+              <input type="checkbox" name="option2" value="a2" checked>Мотель<Br>
+              <input type="checkbox" name="option3" value="a3" checked>Аппартаменты<Br> 
+            </form>
+              
+              <div class="filter-range">
+                <div class="filter-range-title">Стоимость в сутки (р):</div>
+                <div class="price-controls">
+                  <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                  <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+                </div>
+                <div class="range-controls">
+                  <div class="scale">
+                    <div class="bar"></div>
+                  </div>
+                  <div class="range-toggle range-toggle-min"></div>
+                  <div class="range-toggle range-toggle-max"></div>
+                </div>
+                <button class="btn-transparent" type="submit">Показать</button>
+              </div>
         </section>
 
         <section class="found-hotels">
+            <h2>Найдено:3</h2>
           <ul class="hotels-list">
             <li class="hotel-name">
                     <p class="hotel-image">
@@ -47,7 +73,7 @@
                   <a class="submit" href="#">Забронировать</a>
                 </p>
               <span class="stars5" aria-label="5 звёзд"></span>
-              <p class="rating">рэйтинг:8,5</p>   
+              <p class="rating">рейтинг:8,5</p>   
             </li>
 
             
@@ -65,7 +91,7 @@
                     <a class="submit" href="#">Забронировать</a>
                   </p>
                 <span class="stars3" aria-label="3 здвезды"></span>
-                <p class="rating">рэйтинг:8,9</p>          
+                <p class="rating">рейтинг:8,9</p>          
             </li>
 
             
@@ -83,7 +109,7 @@
                     <a class="submit" href="#">Забронировать</a>
                   </p>
                 <span class="stars2" aria-label="2 здвезды"></span>
-                <p class="rating">рэйтинг:9,2</p>          
+                <p class="rating">рейтинг:9,2</p>          
             </li>
           </ul>
         </section>
