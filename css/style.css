@@ -52,7 +52,7 @@ img{
 
 .site-navigation a{
     display: block;
-    padding: 0px 100px;
+    padding: 0px 90px;
 
     text-decoration: none;
     color: #000000;
@@ -214,14 +214,13 @@ a {
 
 .realcity-info{
     width: 400px;
-    height: inherit;
+    min-height: 260px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 60px;
-
+    justify-content: center;
+    
     background-color: #81b3d2;
 }
 
@@ -283,12 +282,12 @@ a {
 
 .realcity-item1{
     width: 400px;
+    min-height: 330px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 70px;
+    justify-content: center;
 }
 
 .realcity-item1::before{
@@ -297,12 +296,12 @@ a {
 
 .realcity-item2{
     width: 400px;
+    min-height: 330px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 70px;
+    justify-content: center;
 }
 
 .realcity-item2::before{
@@ -311,12 +310,12 @@ a {
 
 .realcity-item3{
     width: 400px;
+    min-height: 330px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 70px;
+    justify-content: center;
 }
 
 .realcity-item3::before{
@@ -339,18 +338,20 @@ a {
 
 .bridge-info{
     width: 400px;
-    height: inherit;
+    min-height: 260px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 60px;
+    justify-content: center;
+    
 
     background-color: #81b3d2;
 }
 
 .bridge-info h2{
+    width: 180px;
+
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
@@ -361,6 +362,8 @@ a {
 }
 
 .bridge-info p{
+    width: 310px;
+
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
@@ -405,34 +408,32 @@ a {
 
 .small-area{
     width: 400px;
+    min-height: 260px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    justify-content: center;
 }
 
 .road{
     width: 400px;
+    min-height: 260px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    padding-top: 40px;
-    padding-bottom: 40px;
+    justify-content: center;
 }
 
 .tourists{
     width: 400px;
+    min-height: 260px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    padding-top: 40px;
-    padding-bottom: 40px;
+    justify-content: center;
 }
 
 .interest{
@@ -452,6 +453,7 @@ a {
 }
 
 .interest p{
+    padding-bottom: 30px;
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
@@ -462,12 +464,37 @@ a {
 }
 
 .search-hotel{
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-size: 1200px 475px;
+    background-position: bottom;
+    background-color: #ffffff;
+}
+
+.search-hotel-form{
+    width: 572px;
+    height: 485px;
+
+    display: flex;
+    flex-direction: column;
+
     background-color: #ffffff;
     box-shadow: 0 0 20px #cccccc;
 }
 
-.search-hotel h2{
-    background: #766357;
+.search-hotel-block{
+    width: 480px;
+    height: 575px;
+
+    display: flex;
+    align-self: center;
+}
+
+.search-hotel-form h2{
+    margin: 0;
     padding: 30px; 
     font-family: "PT Sans Narrow", Arial, sans-serif;
     font-size: 21px;
@@ -476,6 +503,7 @@ a {
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
+    background-color: #766357;
 }
 
 .search-hotel h2:hover{
