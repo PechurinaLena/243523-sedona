@@ -30,8 +30,6 @@ img{
     border: 0; 
     position: absolute; 
     overflow: hidden; 
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
   }
 
 .main-navigation{
@@ -461,6 +459,9 @@ a {
 }
 
 .interest h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 30px;
     line-height: 36px;
@@ -471,7 +472,8 @@ a {
 }
 
 .interest p{
-    padding-bottom: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
@@ -513,7 +515,7 @@ a {
     align-self: center;
 }
 
-.search-hotel-form h2{
+.search{
     margin: 0;
     padding: 30px; 
 
@@ -527,12 +529,20 @@ a {
     background-color: #766357;
 }
 
-.search-hotel h2:hover{
+.search:hover{
     background-color: #604E43;
 }
 
-.search-hotel h2:active{
+.search:active{
     background-color: #503E33;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.search:focus-within{
+    outline: none;
 }
 
 .arrival-date-form{
@@ -722,8 +732,6 @@ a {
     color: #94B9D2;
 }
 
-
-
 .main-footer{
     width: 1200px;
     min-height: 120px;
@@ -741,7 +749,6 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
     
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 21px;
@@ -773,6 +780,9 @@ a {
     margin:0px 5px;
     height: 48px;
     width: 46px; 
+    line-height: 3;
+    text-align: center;
+
     background-color: #81b3d2;
 }
 
@@ -842,6 +852,10 @@ a {
     text-transform: uppercase;   
 }
 
+.footer-logo a{
+    padding-left: 10px;
+}
+
 .logo-size{
     height: 45px;
     width: 117px;
@@ -859,24 +873,17 @@ a {
     fill: #BDBBBC;
 }
 
-
-
-
----------------
 .inner-search-hotel{
     width: 1200px;
-    min-height: 120px;
-    background-color: #669EC0;
+    min-height: 220px;
 
     display: flex;
     flex-direction: row;
 
     background-image: url(../img/inner-background-photo.jpg);
     background-repeat: no-repeat;
-    background-position: 50% 69%;
     background-size: 1200px 220px;
 }
-
 
 .infrastructure{
     margin: 0;
@@ -888,10 +895,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-    
-    background-color: #81b3d2;
-
+    justify-content: center
 }
 
 .property-type{
@@ -905,8 +909,6 @@ a {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-
-    background-color: #503E33;
 }
 
 .filter-range {
@@ -919,8 +921,6 @@ a {
   
     color: #ffffff;
     text-transform: uppercase;
-
-    background-color: #1c4f80;
   }
   
   .filter-range-title {
