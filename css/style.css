@@ -633,11 +633,9 @@ a {
     flex-direction: row;
 }
 
-/*НУЖНО ИСПРАВЛЯТЬ */
-
 .choose-adult-amount{
     width: 230px;
-    padding: 0 20px;
+    padding-right: 20px;
 
     display: flex;
     flex-direction: row;
@@ -646,19 +644,20 @@ a {
 
 .choose-children-amount{
     width: 230px;
-    padding: 0 20px;
+    padding-left: 20px;
 
     display: flex;
     flex-direction: row;
     align-self: center;
 }
 
-/*НУЖНО ИСПРАВЛЯТЬ */
-
 .amount{
-    height: 33px;
+    height: 35px;
     width: 35px;
+
     margin: 0;
+    padding: 0;
+
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
@@ -671,10 +670,21 @@ a {
     border-style: none;
 }
 
+.amount:focus{
+    outline: none;
+}
+
+.amount:focus-within{
+    outline: none;
+}
+
 .minus{
     height: 35px;
     width: 35px;
+    
     margin: 0;
+    padding: 0;
+
     color: #766357;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
@@ -692,10 +702,21 @@ a {
     color:  #81B3D2;
 }
 
+.minus:focus{
+    outline: none;
+}
+
+.minus:focus-within{
+    outline: none;
+}
+
 .plus{
     height: 35px;
     width: 35px;
+
     margin: 0;
+    padding: 0;
+
     color: #766357;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
@@ -711,6 +732,14 @@ a {
 
 .plus:active{
     color:  #81B3D2;
+}
+
+.plus:focus{
+    outline: none;
+}
+
+.plus:focus-within{
+    outline: none;
 }
 
 .find{
