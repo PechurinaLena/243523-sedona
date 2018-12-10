@@ -140,12 +140,22 @@ a {
     list-style: none;
 }
 
+.found-hotels{
+    display: flex;
+    flex-direction: column;
+}
+
 .hotels-list{
     list-style: none;
+
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .hotel-name{
-    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    
     border-top: 1px solid#E5E5E5;
     border-bottom: 1px solid#E5E5E5;
 }
@@ -916,7 +926,7 @@ a {
 
 .inner-search-hotel{
     width: 1200px;
-    min-height: 220px;
+    min-height: 222px;
 
     display: flex;
     flex-direction: row;
