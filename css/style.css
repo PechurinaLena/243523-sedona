@@ -253,6 +253,23 @@ a {
     background-color: #766357;
 }
 
+.submit:hover{
+    background-color: #604E43;
+}
+
+.submit:active{
+    background-color: #503E33;
+    color: #857171;
+}
+
+.submit:focus{
+    outline: none;
+}
+
+.submit:focus-within{
+    outline: none;
+}
+
 .stars5{
     display: block;
     
