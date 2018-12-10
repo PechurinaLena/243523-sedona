@@ -162,6 +162,9 @@ a {
 }
 
 .hotel-name{
+    width: 1200px;
+    min-height: 152px;
+
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -170,6 +173,9 @@ a {
     border-bottom: 1px solid#E5E5E5;
 }
 
+.hotel-info{
+    margin-top: 30px;
+}
 
 .hotel-name h3{
     width: 217px;
@@ -186,13 +192,25 @@ a {
     text-transform: uppercase;
 }
 
+.hotel-name h3:hover{
+    color: #81b3d2;
+}
+
+.hotel-name h3:active{
+    color: #BDBBBC;
+}
+
 .hotel-name p{
-    width: 83px;
+    width: 110px;
     height: 19px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
 
     display: inline-flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
     font-family: "PT Sans", Arial, sans-serif;
@@ -1035,6 +1053,22 @@ a {
     justify-content: center
 }
 
+.infrastructure-name{
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;   
+}
+
+.infrastructure-type{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;   
+}
+
 .property-type{
     margin: 0;
     padding: 0;
@@ -1048,14 +1082,27 @@ a {
     justify-content: center;
 }
 
+.property{
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;   
+}
+
+.type{
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;   
+}
+
 .filter-range {
+    margin-top: 30px;
+
     width: 330px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  
     color: #ffffff;
     text-transform: uppercase;
   }
@@ -1120,7 +1167,8 @@ a {
     border: none;
   }
   
-  .range-controls {
+  
+.range-controls {
     position: relative;
   
     margin-bottom: 32px;
