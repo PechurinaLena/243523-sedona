@@ -60,9 +60,21 @@ img{
     text-transform: uppercase;
 }
 
-.site-navigation a{   
-    padding: 0 90px;
+.site-navigation li{
+    width: 240px;
 
+    text-align: center;
+}
+
+.site-navigation li:nth-child(2){
+    margin-right: 100px;
+}
+
+.site-navigation li:nth-child(3){
+    margin-left: 100px;
+}
+
+.site-navigation a{   
     text-decoration: none;
     color: #000000;
 }
@@ -523,7 +535,7 @@ a {
 }
 
 .advantage p{
-    width: 262px;
+    width: 270px;
     padding: 0;
 
     font-family: "PT Sans", Arial, sans-serif;
