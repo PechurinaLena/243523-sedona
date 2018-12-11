@@ -916,7 +916,36 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
 
+.social-button {
+    margin: 3px;
+    padding: 0;
+
+    width: 48px;
+    height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    background-color:#81B3D2;
+  }
+
+.social-button:hover{
+    background-color: #669EC0;
+}
+
+.social-button:hover path{
+    fill: #ffffff;
+}
+
+.social-button:active{
+    background-color: #5496BD;
+}
+
+.social-button:active path{
+    fill: #88B6D1;
 }
 
 .footer-social li{
