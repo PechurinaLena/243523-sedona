@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: "PT Sans", Arial, sans-serif;
-    
+
     background-color:#f2f2f2;
 }
 
@@ -54,7 +54,6 @@ img{
     display: flex;
     flex-wrap: wrap;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 700;
@@ -64,8 +63,8 @@ img{
 
 .site-navigation li{
     width: 240px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
     text-align: center;
 }
@@ -142,7 +141,6 @@ a {
     flex-direction: column;
     align-self: center;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
@@ -166,14 +164,11 @@ a {
 }
 
 .hotel-image{
-    margin-left: 72px;
-    margin-right: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    width: 135px;
+    height: 90px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    align-self: center;
+    margin-right: 30px;
 }
 
 .hotel-name{
@@ -182,14 +177,14 @@ a {
 
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
 
     border-top: 1px solid#E5E5E5;
     border-bottom: 1px solid#E5E5E5;
 }
 
 .hotel-info{
-    margin-top: 30px;
+    margin-top: 25px;
 }
 
 .hotel-name h3{
@@ -199,7 +194,6 @@ a {
     margin: 0;
     padding: 0;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
@@ -215,20 +209,12 @@ a {
     color: #BDBBBC;
 }
 
-.hotel-name p{
+.hotel-info p{
     width: 110px;
     height: 19px;
 
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 0;
-
     display: inline-flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-
-    font-family: "PT Sans", Arial, sans-serif;
+    
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -251,7 +237,6 @@ a {
     flex-direction: row;
     align-self: center;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 700;
@@ -269,6 +254,24 @@ a {
     color: #94B9D2;
 }
 
+.about-hotel{
+    width: 600px;
+    margin-left: 72px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.quality{
+    width: 600px;
+    margin-right: 72px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
 .submit{
     width: 143px;
     height: 25px;
@@ -277,7 +280,6 @@ a {
     flex-direction: row;
     align-self: center;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 700;
@@ -304,41 +306,48 @@ a {
 }
 
 .stars5{
-    display: block;
-    
     width: 91px;
     height: 23px;
+
+    display: block;
     
     background-image: url(../img/star.svg);
     background-repeat: repeat-x;
 }
 
 .stars3{
-    display: block;
-    
     width: 55px;
     height: 23px;
+
+    display: block;
 
     background-image: url(../img/star.svg);
     background-repeat: repeat-x;
 }
 
 .stars2{
-    display: block;
-    
     width: 37px;
     height: 23px;
+
+    display: block;
 
     background-image: url(../img/star.svg);
     background-repeat: repeat-x;
 }
 
-.rating{
-    display: block;
+.quality p{
     width: 112px;
-    height: 30px;
+    padding: 5px;
 
+    display: block;
     text-align: center;
+
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #666666;
+    text-transform: uppercase;
+
     background-color: #F2F2F2;
 }
 
@@ -371,7 +380,6 @@ a {
 .realcity-info h2{
     width: 130px;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
@@ -383,7 +391,6 @@ a {
 .realcity-info p{
     width: 280px;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -403,7 +410,6 @@ a {
 .realcity-list h3{
     width: 120px;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
@@ -415,7 +421,6 @@ a {
 .realcity-list p{
     width: 300px;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -488,7 +493,6 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 
     background-color: #81b3d2;
 }
@@ -496,7 +500,6 @@ a {
 .bridge-info h2{
     width: 180px;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
@@ -508,7 +511,6 @@ a {
 .bridge-info p{
     width: 310px;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -529,7 +531,6 @@ a {
 .advantage h2{
     width: 150px;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 21px;
     line-height: 21px;
     font-weight: 700;
@@ -542,7 +543,6 @@ a {
     width: 270px;
     padding: 0;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -591,7 +591,6 @@ a {
     margin-top: 50px;
     margin-bottom: 20px;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 30px;
     line-height: 36px;
     font-weight: 700;
@@ -604,7 +603,6 @@ a {
     margin-top: 10px;
     margin-bottom: 50px;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
@@ -648,7 +646,6 @@ a {
     margin: 0;
     padding: 30px; 
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
@@ -676,25 +673,20 @@ a {
 }
 
 .arrival-date-form{
-    padding: 56px 56px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    padding: 60px;
 }
 
 .arrival-date-form p{
-    width: 460px;
+    width: 420px;
 
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .arrival-date-form label{
     margin-right: 35px;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 700;
@@ -706,11 +698,9 @@ a {
 .date{
     height: 37px;
     width: 270px;
-
     box-sizing: border-box;
     padding-left: 10px;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 700;
@@ -733,14 +723,12 @@ a {
 
 
 .calendar{
+    height: 27px;
     margin: 0;
     padding: 5px;
-
-    height: 27px;
-    width: 53px;
-
-    display: flex;
-    flex-direction: row;
+    
+    display: block;
+    position: absolute;
 
     background-color: #f2f2f2;
     border-style: none;
@@ -756,7 +744,6 @@ a {
     fill: #81B3D2;
 }
 
-
 .arrival-date-item .departure-date-item{
     display: flex;
     flex-wrap: wrap;
@@ -768,20 +755,15 @@ a {
 
     display: flex;
     flex-direction: row;
-}
-
-.choose-adult-amount .names{
-    padding-right: 20px;
+    align-items: center;
 }
 
 .amount{
-    height: 37px;
     width: 35px;
-
+    height: 37px;
     margin: 0;
     padding: 0;
 
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 700;
@@ -802,17 +784,15 @@ a {
 }
 
 .minus{
-    height: 37px;
     width: 35px;
-    
+    height: 37px;
     margin: 0;
     padding: 0;
 
-    color: #766357;
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 700;
+    color: #766357;
     border-style: none;
     background-color: #f2f2f2;
 }
@@ -834,17 +814,15 @@ a {
 }
 
 .plus{
-    height: 37px;
     width: 35px;
-
+    height: 37px;
     margin: 0;
     padding: 0;
 
-    color: #766357;
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 700;
+    color: #766357;
     border-style: none;
     background-color: #f2f2f2;
 }
@@ -866,15 +844,9 @@ a {
 }
 
 .find{
-    width: 460px;
+    width: 470px;
     height: 60px;
 
-    display: flex;
-    flex-direction: row;
-    align-self: center;
-    justify-content: center;
-
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
@@ -922,11 +894,10 @@ a {
 }
 
 .footer-social{
-    margin: 0;
-    padding: 0;
-
     width: 400px;
     height: 120px;
+    margin: 0;
+    padding: 0;
 
     display: flex;
     flex-direction: row;
@@ -935,11 +906,10 @@ a {
 }
 
 .social-button {
-    margin: 3px;
-    padding: 0;
-
     width: 48px;
     height: 48px;
+    margin: 3px;
+    padding: 0;
 
     display: flex;
     align-items: center;
@@ -969,9 +939,10 @@ a {
 }
 
 .social-button1{
-    margin:0px 5px;
-    height: 48px;
     width: 46px; 
+    height: 48px;
+    margin:0px 5px;
+    
     line-height: 3;
     text-align: center;
 
@@ -1035,9 +1006,7 @@ a {
     justify-content: center;
 }
 
-
 .footer-logo p{
-    font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
@@ -1079,11 +1048,10 @@ a {
 }
 
 .infrastructure{
-    margin: 0;
-    padding: 0;
-
     width: 300px;
     min-height: 220px;
+    margin: 0;
+    padding: 0;
 
     display: flex;
     flex-direction: column;
@@ -1108,11 +1076,10 @@ a {
 }
 
 .property-type{
-    margin: 0;
-    padding: 0;
-
     width: 300px;
     min-height: 220px;
+    margin: 0;
+    padding: 0;
 
     display: flex;
     flex-direction: column;
@@ -1137,9 +1104,8 @@ a {
 }
 
 .filter-range {
-    margin-top: 30px;
-
     width: 330px;
+    margin-top: 30px;
 
     color: #ffffff;
     text-transform: uppercase;
@@ -1154,11 +1120,10 @@ a {
   }
   
   .price-controls {
-    position: relative;
-    
     height: 36px;
     margin-bottom: 20px;
-  
+
+    position: relative;
     font-size: 0;
   
     border: 2px solid #ffffff;
@@ -1166,13 +1131,13 @@ a {
   }
   
   .price-controls::after {
+    width: 2px;
+    height: 22px;
+
     content: "";
     position: absolute;
     top: 50%;
     left: 50%;
-  
-    width: 2px;
-    height: 22px;
   
     background: #ffffff;
     transform: translate(-50%, -50%);
@@ -1207,9 +1172,9 @@ a {
   
   
 .range-controls {
-    position: relative;
-  
     margin-bottom: 32px;
+
+    position: relative;
   }
   
   .range-controls .scale {
@@ -1226,11 +1191,11 @@ a {
   }
   
   .range-toggle {
-    position: absolute;
-    top: -9px;
-  
     width: 4px;
     height: 4px;
+
+    position: absolute;
+    top: -9px;
   
     background: #ababab;
     border: 8px solid #ffffff;
@@ -1252,9 +1217,10 @@ a {
   }
   
   .btn-transparent {
-    display: block;
     margin: 0 auto;
     padding: 6px 35px;
+
+    display: block;
   
     font-size: 14px;
     line-height: 20px;
