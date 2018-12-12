@@ -47,6 +47,8 @@ img{
 }
 
 .site-navigation{
+    padding: 0;
+    margin: 0;
     list-style: none;
 
     display: flex;
@@ -62,6 +64,8 @@ img{
 
 .site-navigation li{
     width: 240px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     text-align: center;
 }
