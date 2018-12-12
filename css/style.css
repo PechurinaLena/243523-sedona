@@ -301,10 +301,6 @@ a {
     outline: none;
 }
 
-.submit:focus-within{
-    outline: none;
-}
-
 .stars5{
     width: 91px;
     height: 23px;
@@ -668,10 +664,6 @@ a {
     outline: none;
 }
 
-.search:focus-within{
-    outline: none;
-}
-
 .arrival-date-form{
     padding: 60px;
 }
@@ -779,10 +771,6 @@ a {
     outline: none;
 }
 
-.amount:focus-within{
-    outline: none;
-}
-
 .minus{
     width: 35px;
     height: 37px;
@@ -809,10 +797,6 @@ a {
     outline: none;
 }
 
-.minus:focus-within{
-    outline: none;
-}
-
 .plus{
     width: 35px;
     height: 37px;
@@ -836,10 +820,6 @@ a {
 }
 
 .plus:focus{
-    outline: none;
-}
-
-.plus:focus-within{
     outline: none;
 }
 
@@ -935,7 +915,7 @@ a {
 }
 
 .footer-social li{
-    list-style: none;
+    list-style: none
 }
 
 .social-button1{
