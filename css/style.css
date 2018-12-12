@@ -347,6 +347,80 @@ a {
     background-color: #F2F2F2;
 }
 
+.sorting-hotels{
+    width: 1200px;
+    margin-left: 72px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.sorting-hotels h2{
+    margin-right: 20px;
+
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.sorting{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.sorting-by-price{
+    padding: 10px;
+
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #81B3D2;
+    text-transform: uppercase;
+}
+
+.sorting-by-type{
+    padding: 10px;
+
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: 	#CACACA;
+    text-transform: uppercase;
+    text-decoration: underline #81B3D2; /*должна быть другая рееализация*/
+}
+
+.sorting-hotels p:hover{
+    color: 	#CACACA;
+    text-transform: uppercase;
+    text-decoration: underline #81B3D2;/*должна быть другая рееализация*/
+}
+
+.sorting-hotels p:active{
+    color: #000000;
+    text-decoration: none;
+}
+
+.sorting-by-rating{
+    padding: 10px;
+
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 400;
+    color: 	#CACACA;
+    text-transform: uppercase;
+    text-decoration: underline #81B3D2;
+}
+
 .city{
     margin: 0px;
     padding: 0px;
@@ -1027,15 +1101,17 @@ a {
     background-size: 1200px 220px;
 }
 
+.hotel-selection{
+    width: 600px;
+    display: flex;
+}
+
 .infrastructure{
     width: 300px;
-    min-height: 220px;
-    margin: 0;
-    padding: 0;
+    margin-left: 72px;
 
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: center
 }
 
@@ -1081,6 +1157,14 @@ a {
     font-weight: 400;
     color: #ffffff;
     text-transform: uppercase;   
+}
+
+.hotel-price{
+    width: 600px;
+    margin-right: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .filter-range {

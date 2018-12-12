@@ -26,6 +26,7 @@
 
       <section class="inner-search-hotel">
         <h2 class="visually-hidden">Критерии выбора гостиницы</h2>
+        <div class="hotel-selection">
           <form class="infrastructure" action="https://echo.htmlacademy.ru" method="post">
             <p class="infrastructure-name">ИНФРАСТРУКТУРА:</p>
             <p class="infrastructure-type"><input type="checkbox" name="option1" value="a1" checked>Бассейн<Br>
@@ -38,26 +39,34 @@
             <input  type="checkbox" name="option2" value="a2" checked>Мотель<Br>
             <input  type="checkbox" name="option3" value="a3" checked>Аппартаменты<Br> 
           </form>
-              
-              <div class="filter-range">
-                <div class="filter-range-title">Стоимость в сутки (р):</div>
-                <div class="price-controls">
-                  <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-                  <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
-                </div>
-                <div class="range-controls">
-                  <div class="scale">
-                    <div class="bar"></div>
-                  </div>
-                  <div class="range-toggle range-toggle-min"></div>
-                  <div class="range-toggle range-toggle-max"></div>
-                </div>
-                <button class="btn-transparent" type="submit">Показать</button>
+        </div>
+        <div class="hotel-price">     
+          <div class="filter-range">
+            <div class="filter-range-title">Стоимость в сутки (р):</div>
+            <div class="price-controls">
+              <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+              <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+            </div>
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
               </div>
+              <div class="range-toggle range-toggle-min"></div>
+              <div class="range-toggle range-toggle-max"></div>
+            </div>
+            <button class="btn-transparent" type="submit">Показать</button>
+          </div>
+        </div> 
       </section>
 
       <section class="found-hotels">
-        <h2>Найдено:3</h2>
+        <div class="sorting-hotels">
+          <h2>Найдено: 3</h2>
+          <h3 class="sorting">Сортировка:</h3>
+          <p class="sorting-by-price">По цене</p>
+          <p class="sorting-by-type">По типу</p>
+          <p class="sorting-by-rating">По рейтингу</p>
+        </div>
         <ul class="hotels-list">
             <li class="hotel-name">
               <div class="about-hotel">
