@@ -855,6 +855,7 @@ a {
 }
 
 .date-form label{
+    width: 100px;
     margin-right: 35px;
 
     font-size: 14px;
@@ -867,7 +868,7 @@ a {
 
 .date{
     height: 37px;
-    width: 270px;
+    width: 296px;
     box-sizing: border-box;
     padding-left: 10px;
 
@@ -890,7 +891,6 @@ a {
     background-color: #ffffff;
     outline: 2px solid #E5E5E5;
 }
-
 
 .calendar{
     height: 27px;
@@ -925,6 +925,14 @@ a {
 
     display: flex;
     flex-direction: row;
+}
+
+.choose-amount p{
+    width: 230px;
+}
+
+.choose-amount label{
+    width: 100px;
 }
 
 .amount{
@@ -1262,6 +1270,24 @@ a {
     text-transform: uppercase;   
 }
 
+[type="checkbox"], [type="radio"]{
+    position: absolute;
+    visibility: hidden;
+    width: 24px;
+    height: 24px;
+}
+
+.check{
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
+}
+
+.check:hover{
+    fill: #ffffff;
+}
+
+
 .hotel-price{
     width: 600px;
     margin-right: 72px;
@@ -1336,7 +1362,6 @@ a {
     background: none;
     border: none;
   }
-  
   
 .range-controls {
     margin-bottom: 32px;
