@@ -1255,7 +1255,7 @@ p.find-bottom{
 
 .infrastructure{
     width: 300px;
-    margin-left: 72px;
+    margin-left: 70px;
 
     display: flex;
     flex-direction: column;
@@ -1263,6 +1263,8 @@ p.find-bottom{
 }
 
 .infrastructure-name{
+    margin-top: -16px;
+
     font-size: 16px;
     line-height: 21px;
     font-weight: 700;
@@ -1291,6 +1293,8 @@ p.find-bottom{
 }
 
 .property{
+    margin-top: -16px;
+
     font-size: 16px;
     line-height: 21px;
     font-weight: 700;
@@ -1402,6 +1406,7 @@ p.find-bottom{
   }
   
 .range-controls {
+    width: 319px;
     margin-bottom: 32px;
 
     position: relative;
@@ -1435,16 +1440,17 @@ p.find-bottom{
   }
   
   .range-toggle:hover {
-    background: #1c4f80;
+    background: #ababab;
+    border: 10px solid #ffffff;
   }
   
   .range-toggle-min {
     left: 0;
   }
   
-  .range-toggle-max {
-    left: 80%;
-  }
+.range-toggle-max {
+    left: 79%;
+}
   
   .btn-transparent {
     margin: 0 auto;
