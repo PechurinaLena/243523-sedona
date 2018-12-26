@@ -119,7 +119,7 @@ a {
     background-image: url(../img/intro-welcome.svg), url(../img/intro-mask.svg), url(../img/main-background-photo.jpg);
     background-repeat: no-repeat;
     background-position: 50% 20%, 50% 68%, 50% 0%;
-    background-size: 470px 350px, 1200px 61px, 1200px 508px;
+    background-size: 470px 350px, 1200px 64px, 1200px 508px;
     background-color: #ffffff;
 }
 
@@ -717,6 +717,10 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.tourists p {
+    width: 259px;
 }
 
 .interest{
