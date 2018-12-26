@@ -559,7 +559,7 @@ a {
             align-items: center;
 }
 
-.dir span{
+.dir a{
     width: 20px;
     text-align: end;
 }
