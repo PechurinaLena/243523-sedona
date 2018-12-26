@@ -512,14 +512,14 @@ a {
             text-decoration: underline #81B3D2;
 }
 
-.sorting-hotels p:hover{
+.sorting-hotels a:hover{
     color: 	#81B3D2;
     text-transform: uppercase;
     -webkit-text-decoration: underline #81B3D2;
             text-decoration: underline #81B3D2;
 }
 
-.sorting-hotels p:active{
+.sorting-hotels a:active{
     color: #000000;
     text-decoration: none;
 }
