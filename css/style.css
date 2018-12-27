@@ -120,7 +120,7 @@ a {
 
   .welcome{
     width: auto;
-    height: 722px;
+    height: 724px;
 
     display: -webkit-box;
     display: -ms-flexbox;
@@ -133,7 +133,7 @@ a {
     background-image: url(../img/intro-welcome.svg), url(../img/intro-mask.svg), url(../img/main-background-photo.jpg);
     background-repeat: no-repeat;
     background-position: 50% 20%, 50% 68%, 50% 0%;
-    background-size: 470px 350px, 1200px 64px, 1200px 508px;
+    background-size: 470px 350px, 1200px 63px, 1200px 508px;
     background-color: #ffffff;
 }
 
@@ -142,9 +142,7 @@ a {
     height: 50px;
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -153,7 +151,7 @@ a {
     -ms-flex-item-align: center;
         align-self: center;
 
-    padding-top: 553px;
+    padding-top: 555px;
     font-size: 21px;
     line-height: 26px;
     font-weight: 700;
@@ -1135,6 +1133,7 @@ a {
 }
 
 .date-form{
+    max-width: 460px;
     padding-bottom: 54px;
     padding-left: 54px;
     padding-top: 43px;
@@ -1215,7 +1214,6 @@ a {
     width: 21px;
     height: 20px;
     margin: 0;
-    padding-left: 7px;
     padding-top: 3px;
 
     display: block;
