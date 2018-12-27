@@ -648,13 +648,12 @@ a {
 }
 
 .realcity-list{
+    min-height: 330px;
     margin: 0;
     padding: 0;
     
     display: -webkit-box;
-    
     display: -ms-flexbox;
-    
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -688,12 +687,9 @@ a {
 
 .realcity-item1{
     width: 400px;
-    min-height: 330px;
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -713,12 +709,9 @@ a {
 
 .realcity-item2{
     width: 400px;
-    min-height: 330px;
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -738,12 +731,9 @@ a {
 
 .realcity-item3{
     width: 400px;
-    min-height: 330px;
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -762,14 +752,12 @@ a {
 }
 
 .bridge{
-    height: 256px;
+    min-height: 258px;
     margin: 0px;
     padding: 0px;
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
@@ -777,19 +765,16 @@ a {
             flex-direction: row-reverse;
 
     background-image: url(../img/bridge.jpg);
-    background-size: 800px 258px;
+    background-size: 67% 100%;
     background-position: left;
     background-repeat: no-repeat;
 }
 
 .bridge-info{
     width: 400px;
-    min-height: 258px;
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -835,12 +820,10 @@ a {
 }
 
 .advantage{
-    height: 258px;
+    min-height: 258px;
     
     display: -webkit-box;
-    
     display: -ms-flexbox;
-    
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
