@@ -1615,7 +1615,7 @@ p.choose-children-amount label{
 
     background-image: url(../img/inner-background-photo.jpg);
     background-repeat: no-repeat;
-    background-size: 1200px 220px;
+    background-size: 1200px 216px;
 }
 
 .hotel-selection{
@@ -1630,9 +1630,7 @@ p.choose-children-amount label{
     margin-left: 70px;
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1653,12 +1651,16 @@ p.choose-children-amount label{
     text-transform: uppercase;   
 }
 
-.infrastructure-type{
+.infrastructure label{
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
     color: #ffffff;
     text-transform: uppercase;   
+}
+
+.infrastructure-type{
+    height: 10px;
 }
 
 .property-type{
@@ -1668,9 +1670,7 @@ p.choose-children-amount label{
     padding: 0;
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1694,7 +1694,7 @@ p.choose-children-amount label{
     text-transform: uppercase;   
 }
 
-.type{
+.property-type label{
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
@@ -1702,11 +1702,8 @@ p.choose-children-amount label{
     text-transform: uppercase;   
 }
 
-[type="checkbox"], [type="radio"]{
-    position: absolute;
-    visibility: hidden;
-    width: 24px;
-    height: 24px;
+.type{
+    height: 10px;
 }
 
 .check{
