@@ -89,12 +89,12 @@ body {
 
 .site-navigation li:nth-child(2){
     margin-left: 23px;
-    text-align: start;
+    text-align: left;
 }
 
 .site-navigation li:nth-child(3){
     margin-right: 20px;
-    text-align: end;
+    text-align: right;
 }
 
 .site-navigation a{   
