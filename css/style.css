@@ -120,7 +120,7 @@ a {
 
   .welcome{
     width: auto;
-    height: 724px;
+    min-height: 724px;
 
     display: -webkit-box;
     display: -ms-flexbox;
