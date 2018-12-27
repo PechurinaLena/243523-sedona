@@ -583,13 +583,12 @@ a {
 }
 
 .city{
+    min-height: 258px;
     margin: 0px;
     padding: 0px;
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -597,19 +596,16 @@ a {
             flex-direction: row;
 
     background-image: url(../img/real-city.jpg);
-    background-size: 800px 258px;
+    background-size: 67% 100%;
     background-position: right;
     background-repeat: no-repeat;
 }
 
 .realcity-info{
     width: 400px;
-    min-height: 258px;
 
     display: -webkit-box;
-
     display: -ms-flexbox;
-
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
