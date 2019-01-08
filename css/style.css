@@ -6,6 +6,7 @@ html, body {
 }
 
 .inner-page {
+  position: relative;
   width: 1200px;
   height: auto;
   margin-left: auto;
@@ -40,6 +41,10 @@ html, body {
 }
 
 .main-header-logo {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
   width: 140px;
   height: 71px;
   display: block;
