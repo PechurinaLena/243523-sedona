@@ -12,79 +12,89 @@
       <header class="main-header">
         <h1 class="visually-hidden">Гостиницы</h1>
           <nav class="main-navigation">
-            <a class="main-header-logo" href="index.html">
+            <a tabindex="3" class="main-header-logo" href="index.html">
               <img src="img/logo-sedona.svg" width="140" height="71" alt="Логотип города Седона">
             </a>
             <ul class="site-navigation">
-              <li><a href="index.html">Информация</a></li>
-              <li><a href="photo_video.html">Фото и Видео </a></li>
-              <li><a href="maps.html">Карта штата</a></li>
-              <li class="hotels"><a href="hotels.html">Гостиницы</a></li>
+              <li><a tabindex="1" href="index.html">Информация</a></li>
+              <li><a tabindex="2" href="photo_video.html">Фото и Видео </a></li>
+              <li><a tabindex="4" href="maps.html">Карта штата</a></li>
+              <li class="hotels"><a tabindex="5" href="hotels.html">Гостиницы</a></li>
             </ul>
           </nav>
       </header>
 
-      <section class="inner-search-hotel">
-        <h2 class="visually-hidden">Критерии выбора гостиницы</h2>
-        <div class="hotel-selection">
-          <form class="infrastructure" action="https://echo.htmlacademy.ru" method="post">
-            <p class="infrastructure-name">ИНФРАСТРУКТУРА:</p>
-            <p class="infrastructure-type"><input type="checkbox" name="option1" value="a1" checked>
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="#FFFFFF" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>
-              </span><label for="option1">Бассейн</label></p>
-            <p class="infrastructure-type"><input type="checkbox" name="option2" value="a2">
-            <span>
-              <svg class="check" xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path class="check" fill="#FFFFFF" d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
-            </span> <label for="option2">Парковка</label></p>
-            <p class="infrastructure-type"><label><input type="checkbox" name="option3" value="a3">
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23"><path fill="#FFFFFF" d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
-            </span> <label for="option3">WI-FI</label></p>
-          </form>
-          <form class="property-type" action="https://echo.htmlacademy.ru" method="post">
-            <p class="property">ТИП ЖИЛЬЯ:</p>
-            <p class="type"><input  type="checkbox" name="option1" value="a1" checked>
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="#FFFFFF" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>
-              </span> <label for="option1">Гостиница</label></p>
-              <p class="type"><input  type="checkbox" name="option2" value="a2" checked>
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="#FFFFFF" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>
-            </span><label for="option2">Мотель</label></p>
-            <p class="type"><input  type="checkbox" name="option3" value="a3" checked>
-            <span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23"><path fill="#FFFFFF" d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path fill="#FFFFFF" d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>
-            </span><label for="option3">Аппартаменты</label></p>
-          </form>
-        </div>
-        <div class="hotel-price">  
-          <form class="filter-range" action="https://echo.htmlacademy.ru" method="post">
-            <div class="filter-range-title">Стоимость в сутки (р):</div>
-            <div class="price-controls">
-              <label class="min-price">от <input type="text" name="min-price" value="0"></label>
-              <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
-            </div>
-            <div class="range-controls">
-              <div class="scale">
-                <div class="bar"></div>
+      <section class="house-select-form search-filters">
+        <h2 class="visually-hidden">Форма поиска жилья</h2>
+        <form class="search-options" action="https://echo.htmlacademy.ru" method="post">
+          <div class="search-block1">
+            <fieldset>
+              <legend>Инфраструктура:</legend>
+              <ul class="infrastructure-options">
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input-checkbox-on filter-input" id="pool-option1" type="checkbox" name="pool" checked="">
+                  <label for="pool-option1">Бассейн</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input-checkbox-off filter-input" id="parking-option2" type="checkbox" name="parking">
+                  <label for="parking-option2">Парковка</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input-checkbox-off filter-input" id="wifi-option3" type="checkbox" name="wi-fi">
+                  <label for="wifi-option3">Wi-Fi</label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="search-block2">
+            <fieldset>
+              <legend>Тип жилья:</legend>
+              <ul class="housing-options">
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input-checkbox-on filter-input" id="hotel-option1" type="checkbox" name="hotel" checked="">
+                  <label for="hotel-option1">Гостиница</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input-checkbox-on filter-input" id="motel-option2" type="checkbox" name="motel" checked="" >
+                  <label for="motel-option2">Мотель</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input-checkbox-on filter-input" id="apart-option3" type="checkbox" name="apartments" checked="">
+                  <label for="apart-option3">Апартаменты</label>
+                </li>
+              </ul>
+            </fieldset>
+          </div>
+          <div class="search-block3">
+            <fieldset>
+              <legend>Стоимость в сутки (р):</legend>
+              <div class="price-range">
+                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
               </div>
-              <div class="range-toggle range-toggle-min"></div>
-              <div class="range-toggle range-toggle-max"></div>
-            </div>
-            <button class="btn-transparent" type="submit">Показать</button>
-          </form>
-        </div> 
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="range-toggle range-toggle-min"></div>
+                <div class="range-toggle range-toggle-max"></div>
+              </div>
+              <button class="show-button" type="submit">Показать</button>
+            </fieldset>
+          </div>
+        </form>
       </section>
 
       <section class="found-hotels">
         <div class="sorting-block">
           <div class="sorting-hotels">
-            <h2>Найдено: 3</h2>
-            <h3 class="sorting">Сортировка:</h3> 
-            <a class="sorting-by-price" href="#">По цене</a>
-            <a class="sorting-by-type" href="#">По типу</a>
-            <a class="sorting-by-rating" href="#">По рейтингу</a>
+            <p>Найдено: 3</p>
+            <h2>Сортировка:</h2> 
+            <ul class="sorting">
+              <li><a class="sorting-by-price" href="#">По цене</a></li>
+              <li><a class="sorting-by-type" href="#">По типу</a></li>
+              <li> <a class="sorting-by-rating" href="#">По рейтингу</a></li>
+            </ul>
           </div> 
             <div class="dir">
               <a href="#" aria-label="сортировка вверх">
