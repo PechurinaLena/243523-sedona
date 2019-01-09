@@ -9,13 +9,13 @@
 
           var isStorageSupport = true;
           var storage = "";
-          
+
           try {
             storage = localStorage.getItem("login");
           } catch (err) {
             isStorageSupport = false;
           }
-  
+
           link.addEventListener("click", function (evt) {
             evt.preventDefault();
             popup.classList.add("modal-show");
@@ -32,7 +32,7 @@
           }else{
             date.focus();
           }
-    
+
           date.focus();
         });
 

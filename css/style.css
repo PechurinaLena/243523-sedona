@@ -5,7 +5,7 @@ html, body {
   background-color: #f2f2f2;
 }
 
-img{
+img {
   max-width: 100%;
   height: auto;
 }
@@ -716,12 +716,13 @@ a {
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
   background-image: url(../img/bridge.jpg);
-  background-size: 67% 100%;
+  background-size: 800px 256px;
   background-position: left;
   background-repeat: no-repeat;
 }
 
 .bridge-info {
+  min-height: 256px;
   width: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -899,28 +900,28 @@ a {
     -moz-transform: translateY(-2000px);
     -ms-transform: translateY(-2000px);
     -o-transform: translateY(-2000px);
-}
+  }
   70% {
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
     -moz-transform: translateY(30px);
     -ms-transform: translateY(30px);
     -o-transform: translateY(30px);
-}
+  }
   90% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -o-transform: translateY(-10px);
-}
+  }
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
-}
+  }
 }
 
 @keyframes bounce {
@@ -930,28 +931,28 @@ a {
     -moz-transform: translateY(-2000px);
     -ms-transform: translateY(-2000px);
     -o-transform: translateY(-2000px);
-}
+  }
   70% {
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
     -moz-transform: translateY(30px);
     -ms-transform: translateY(30px);
     -o-transform: translateY(30px);
-}
+  }
   90% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -o-transform: translateY(-10px);
-}
+  }
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
-}
+  }
 }
 
 @-webkit-keyframes shake {
@@ -961,21 +962,21 @@ a {
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-}
+  }
   10%, 30%, 50%, 70%, 90% {
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
     -moz-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     -o-transform: translateX(-10px);
-}
+  }
   20%, 40%, 60%, 80% {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
     -moz-transform: translateX(10px);
     -ms-transform: translateX(10px);
     -o-transform: translateX(10px);
-}
+  }
 }
 
 @keyframes shake {
@@ -985,21 +986,21 @@ a {
     -moz-transform: translateX(0);
     -ms-transform: translateX(0);
     -o-transform: translateX(0);
-}
+  }
   10%, 30%, 50%, 70%, 90% {
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
     -moz-transform: translateX(-10px);
     -ms-transform: translateX(-10px);
     -o-transform: translateX(-10px);
-}
+  }
   20%, 40%, 60%, 80% {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
     -moz-transform: translateX(10px);
     -ms-transform: translateX(10px);
     -o-transform: translateX(10px);
-}
+  }
 }
 
 .modal-show {
@@ -1074,7 +1075,7 @@ a {
 }
 
 .arrival-date-item label, .departure-date-item label {
-  width: 92px;
+  width: 96px;
   padding-left: 3px;
   padding-top: 7px;
   margin-right: 20px;
@@ -1151,7 +1152,7 @@ p.arrival-date-item {
   margin-bottom: 30px;
 }
 
-p.departure-date-item{
+p.departure-date-item {
   margin-bottom: 20px;
 }
 
@@ -1181,7 +1182,7 @@ p.choose-adult-amount, p.choose-children-amount {
   text-transform: uppercase;
 }
 
-.choose-children-amount label{
+.choose-children-amount label {
   width: 121px;
   padding-top: 7px;
   margin-right: 22px;
@@ -1532,6 +1533,10 @@ p.choose-adult-amount, p.choose-children-amount {
   padding-left: 44px;
 }
 
+.price-range .max-price {
+  padding-left: 26px;
+}
+
 .price-range label {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 50%;
@@ -1556,10 +1561,6 @@ p.choose-adult-amount, p.choose-children-amount {
   font-weight: 400;
   background: 0 0;
   border: 0;
-}
-
-.price-range .max-price {
-  padding-left: 26px;
 }
 
 .price-range::after {
