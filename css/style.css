@@ -5,6 +5,11 @@ html, body {
   background-color: #f2f2f2;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 .inner-page {
   position: relative;
   width: 1200px;
@@ -129,7 +134,6 @@ a {
 
 .welcome h1 {
   width: 500px;
-  height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,7 +154,7 @@ a {
 
 .welcome p {
   width: 600px;
-  height: 30px;
+  margin-top: 11px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -379,8 +383,9 @@ a {
 }
 
 .quality p {
-  width: 112px;
-  padding: 5px;
+  width: 109px;
+  padding: 3px;
+  margin-left: 3px;
   display: block;
   text-align: center;
   font-size: 14px;
@@ -578,8 +583,8 @@ a {
 
 .realcity-info h2 {
   width: 130px;
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin-top: 1px;
+  margin-bottom: 16px;
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
@@ -590,8 +595,8 @@ a {
 
 .realcity-info p {
   width: 280px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 7px;
+  margin-bottom: 14px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -615,7 +620,8 @@ a {
 
 .realcity-list h3 {
   width: 120px;
-  margin-bottom: 12px;
+  margin-top: 25px;
+  margin-bottom: 10px;
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
@@ -699,7 +705,7 @@ a {
 }
 
 .bridge {
-  min-height: 258px;
+  min-height: 256px;
   margin: 0px;
   padding: 0px;
   display: -webkit-box;
@@ -734,11 +740,9 @@ a {
 }
 
 .bridge-info h2 {
-  width: 180px;
-  height: 70px;
-  margin-top: -14px;
-  margin-bottom: 0px;
-  padding-bottom: 7px;
+  margin-top: 1px;
+  margin-bottom: 19px;
+  padding-bottom: 1px;
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
@@ -749,9 +753,8 @@ a {
 
 .bridge-info p {
   width: 310px;
-  height: 32px;
-  margin-top: -8px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 17px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -761,7 +764,7 @@ a {
 }
 
 .advantage {
-  min-height: 258px;
+  min-height: 256px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -774,8 +777,8 @@ a {
 
 .advantage h2 {
   width: 150px;
-  margin-top: -4px;
-  padding-bottom: 19px;
+  margin-top: 1px;
+  margin-bottom: 19px;
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
@@ -786,9 +789,7 @@ a {
 
 .advantage p {
   width: 270px;
-  height: 30px;
-  padding-bottom: 6px;
-  margin-top: -8px;
+  margin-top: 6px;
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
@@ -866,8 +867,8 @@ a {
 }
 
 .interest h2 {
-  margin-top: 45px;
-  margin-bottom: 16px;
+  margin-top: 49px;
+  margin-bottom: 14px;
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
@@ -895,68 +896,110 @@ a {
   0% {
     -webkit-transform: translateY(-2000px);
     transform: translateY(-2000px);
-  }
+    -moz-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    -o-transform: translateY(-2000px);
+}
   70% {
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
-  }
+    -moz-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+}
   90% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
-  }
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-  }
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
 }
 
 @keyframes bounce {
   0% {
     -webkit-transform: translateY(-2000px);
     transform: translateY(-2000px);
-  }
+    -moz-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    -o-transform: translateY(-2000px);
+}
   70% {
     -webkit-transform: translateY(30px);
     transform: translateY(30px);
-  }
+    -moz-transform: translateY(30px);
+    -ms-transform: translateY(30px);
+    -o-transform: translateY(30px);
+}
   90% {
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
-  }
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
-  }
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
 }
 
 @-webkit-keyframes shake {
   0%, 100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
-  }
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
   10%, 30%, 50%, 70%, 90% {
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
-  }
+    -moz-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    -o-transform: translateX(-10px);
+}
   20%, 40%, 60%, 80% {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
-  }
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+}
 }
 
 @keyframes shake {
   0%, 100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
-  }
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
   10%, 30%, 50%, 70%, 90% {
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
-  }
+    -moz-transform: translateX(-10px);
+    -ms-transform: translateX(-10px);
+    -o-transform: translateX(-10px);
+}
   20%, 40%, 60%, 80% {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
-  }
+    -moz-transform: translateX(10px);
+    -ms-transform: translateX(10px);
+    -o-transform: translateX(10px);
+}
 }
 
 .modal-show {
@@ -972,7 +1015,7 @@ a {
 
 .modal-close {
   width: 569px;
-  height: 86px;
+  min-height: 86px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1031,20 +1074,21 @@ a {
 }
 
 .arrival-date-item label, .departure-date-item label {
-  width: 95px;
+  width: 92px;
+  padding-left: 3px;
   padding-top: 7px;
-  margin-right: 25px;
+  margin-right: 20px;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
-  text-align: end;
+  text-align: start;
   text-transform: uppercase;
 }
 
 .date {
-  height: 37px;
-  width: 306px;
+  width: 308px;
+  min-height: 37px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding-left: 10px;
@@ -1068,7 +1112,6 @@ a {
 }
 
 .calendar-icon {
-  height: 37px;
   background-color: #f2f2f2;
   border-style: none;
 }
@@ -1104,11 +1147,16 @@ a {
   justify-content: space-between;
 }
 
-p.arrival-date-item, p.departure-date-item {
+p.arrival-date-item {
   margin-bottom: 30px;
 }
 
+p.departure-date-item{
+  margin-bottom: 20px;
+}
+
 .choose-amount {
+  margin-bottom: 13px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1118,36 +1166,41 @@ p.arrival-date-item, p.departure-date-item {
 
 p.choose-adult-amount, p.choose-children-amount {
   width: 230px;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
-p.choose-adult-amount label {
-  width: 95px;
-  padding-left: 4px;
-  margin-right: 25px;
+.choose-adult-amount label {
+  width: 118px;
+  padding-top: 7px;
+  margin-right: 26px;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
-  text-align: start;
+  text-align: left;
   text-transform: uppercase;
 }
 
-p.choose-children-amount label {
-  width: 95px;
-  padding-right: 8px;
-  margin-right: 25px;
+.choose-children-amount label{
+  width: 121px;
+  padding-top: 7px;
+  margin-right: 22px;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
   color: #000000;
-  text-align: end;
+  text-align: right;
   text-transform: uppercase;
+}
+
+.adult-block, .children-block {
+  width: 150px;
+  background-color: #f2f2f2;
 }
 
 .amount {
-  width: 38px;
-  height: 37px;
+  width: 35px;
+  min-height: 35px;
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -1156,55 +1209,34 @@ p.choose-children-amount label {
   color: #000000;
   text-align: center;
   text-transform: uppercase;
-  background-color: #f2f2f2;
   border-style: none;
+  background-color: #f2f2f2;
 }
 
-.minus {
-  width: 39px;
-  height: 37px;
+.minus, .plus {
+  width: 35px;
+  min-height: 35px;
   margin: 0;
   padding: 0;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 26px;
   font-weight: 700;
   color: #a9a9a9;
   border-style: none;
   background-color: #f2f2f2;
 }
 
-.minus:hover {
+.minus:hover, .plus:hover {
   color: #000000;
 }
 
-.minus:active {
-  color: #81B3D2;
-}
-
-.plus {
-  width: 39px;
-  height: 37px;
-  margin: 0;
-  padding: 0;
-  font-size: 24px;
-  line-height: 30px;
-  font-weight: 700;
-  color: #a9a9a9;
-  border-style: none;
-  background-color: #f2f2f2;
-}
-
-.plus:hover {
-  color: #000000;
-}
-
-.plus:active {
+.minus:active, .plus:active {
   color: #81B3D2;
 }
 
 .find {
   width: 459px;
-  height: 57px;
+  min-height: 57px;
   margin-top: 13px;
   font-size: 21px;
   line-height: 26px;
@@ -1242,7 +1274,7 @@ p.choose-children-amount label {
 
 .visit {
   width: 400px;
-  height: 117px;
+  min-height: 117px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1265,7 +1297,7 @@ p.choose-children-amount label {
 
 .footer-social {
   width: 400px;
-  height: 117px;
+  min-height: 117px;
   margin: 0;
   padding: 0;
   display: -webkit-box;
@@ -1285,7 +1317,7 @@ p.choose-children-amount label {
 
 .social-button {
   width: 46px;
-  height: 48px;
+  min-height: 48px;
   margin: 3px;
   padding: 0;
   display: -webkit-box;
@@ -1322,7 +1354,7 @@ p.choose-children-amount label {
 
 .footer-logo {
   width: 400px;
-  height: 117px;
+  min-height: 117px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1339,6 +1371,8 @@ p.choose-children-amount label {
 }
 
 .footer-logo p {
+  margin-left: 2px;
+  margin-bottom: 19px;
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
@@ -1369,7 +1403,7 @@ p.choose-children-amount label {
 
 .search-options {
   width: 100%;
-  height: 217px;
+  min-height: 217px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1478,8 +1512,7 @@ p.choose-children-amount label {
 
 .price-range {
   width: 315px;
-  height: 34px;
-  margin-bottom: 20px;
+  margin-bottom: 21px;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1516,7 +1549,7 @@ p.choose-children-amount label {
 
 .price-range input {
   width: 50px;
-  height: 24px;
+  min-height: 30px;
   margin: 0;
   color: inherit;
   font: inherit;
@@ -1529,27 +1562,13 @@ p.choose-children-amount label {
   padding-left: 26px;
 }
 
-.price-range label {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 50%;
-  flex: 0 0 50%;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 38px;
-  vertical-align: top;
-  text-align: center;
-  cursor: pointer;
-}
-
 .price-range::after {
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
   width: 2px;
-  height: 22px;
+  min-height: 22px;
   background: #fff;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -1570,7 +1589,7 @@ p.choose-children-amount label {
 
 .range-controls .bar {
   width: 80%;
-  height: 2px;
+  min-height: 2px;
   background: #fff;
 }
 
@@ -1586,7 +1605,7 @@ p.choose-children-amount label {
   position: absolute;
   top: -9px;
   width: 4px;
-  height: 4px;
+  min-height: 4px;
   background: #ababab;
   border: 8px solid #fff;
   border-radius: 50%;
@@ -1601,7 +1620,7 @@ p.choose-children-amount label {
 
 .show-button {
   margin: 0px 84px;
-  padding: 5px 34px;
+  padding: 6px 34px;
   display: block;
   font-size: 14px;
   line-height: 21px;
